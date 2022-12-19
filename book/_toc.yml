@@ -5,10 +5,14 @@ format: jb-book
 root: intro
 
 chapters:
-  - file: content/axions/introduction
+  - file: sections/axions/introduction
     sections:
-      - file: content/axions/strong-cp-problem
+      - file: sections/axions/strong-cp-problem
 
-  - file: content/iaxo/introduction
+  - file: sections/iaxo/introduction
 
-  - file: content/bibliography/bibliography
+  - file: sections/background-model/introduction
+    sections:
+      - file: sections/background-model/cosmic
+
+  - file: sections/bibliography/bibliography

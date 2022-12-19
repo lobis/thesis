@@ -3,4 +3,4 @@
 
 Files related to my Ph.D. Thesis manuscript.
 
-A web version is [available](https://lobis.github.io/thesis/intro.html).
+A web version is [available](https://lobis.github.io/thesis).

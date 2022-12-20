@@ -35,6 +35,12 @@ jobs:
         run: |
           jupyter-book build book
 
+      - name: Build pdf
+        run: |
+          jupyter-book build book --builder pdflatex
+          mkdir -p book/_build/html/pdf
+          mv book/_build/latex/book.pdf book/_build/html/pdf
+
       - name: Setup Pages
         uses: actions/configure-pages@v2
 

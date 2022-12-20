@@ -14,5 +14,3 @@ chapters:
   - file: sections/background-model/introduction
     sections:
       - file: sections/background-model/cosmic
-
-  - file: sections/bibliography/bibliography

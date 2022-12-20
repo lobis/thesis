@@ -3,4 +3,6 @@
 
 Files related to my Ph.D. Thesis manuscript.
 
-A web version is [available](https://lobis.github.io/thesis).
+A web version is [available here](https://lobis.github.io/thesis).
+
+A pdf version is [available here](https://lobis.github.io/thesis/pdf/book.pdf).

@@ -2,6 +2,8 @@
 
 This will be an introduction to the book.
 
+A pdf version of this book can be found [here](https://lobis.github.io/thesis/pdf/book.pdf).
+
 ```{tableofcontents}
 ```
 

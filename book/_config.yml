@@ -36,6 +36,7 @@ html:
 bibtex_bibfiles:
   - bibliography/iaxo.bib
   - bibliography/cosmic.bib
+  - bibliography/computing.bib
 
 sphinx:
   config:

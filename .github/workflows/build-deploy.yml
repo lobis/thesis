@@ -23,6 +23,8 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -37,7 +39,7 @@ jobs:
 
       - name: Install latex dependencies
         run: |
-          sudo apt-get install texlive-latex-extra texlive-fonts-extra texlive-xetex latexmk
+          sudo apt-get install -y texlive-latex-extra texlive-fonts-extra texlive-xetex latexmk
 
       - name: Build pdf
         run: |

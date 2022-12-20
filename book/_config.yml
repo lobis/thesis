@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: Searching for Solar Axions with BabyIAXO
-author: Luis Antonio Obis Aparicio
+author: <a href="https://github.com/lobis">Luis Antonio Obis Aparicio</a>
 email: luis.antonio.obis@gmail.com
 
 # Currently we do not include any notebook, this might change
@@ -31,8 +31,8 @@ html:
   use_issues_button: true
   use_repository_button: true
   favicon: images/logos/favicon.ico
-  extra_navbar: ""
   google_analytics_id: G-F0G4DRBFLP
+  extra_navbar: ""
 
 bibtex_bibfiles:
   - bibliography/iaxo.bib
@@ -41,6 +41,6 @@ bibtex_bibfiles:
 
 sphinx:
   config:
+    language: en
     bibtex_reference_style: author_year
     html_show_copyright: false
-    myst_amsmath_enable: true

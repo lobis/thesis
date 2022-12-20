@@ -29,9 +29,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Install requirements
+      - name: Set up Python
+        uses: actions/setup-python@v4
+
+      - name: Install Python requirements
         run: |
-          pip install -r book/requirements.txt
+          python -m pip install -r book/requirements.txt
 
       - name: Build book
         run: |
@@ -53,7 +56,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: "book/_build/html"
+          path: book/_build/html
 
       - name: Deploy to GitHub Pages
         id: deployment

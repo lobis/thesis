@@ -2,3 +2,5 @@ jupyter-book
 pyppeteer # for pdf generation
 matplotlib
 numpy
+scipy
+sphinxcontrib-svg2pdfconverter

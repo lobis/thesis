@@ -38,6 +38,10 @@ jobs:
         run: |
           python -m pip install -r book/requirements.txt
 
+      - name: Print jupyter-book version
+        run: |
+          jupyter-book --version
+
       - name: Build book
         run: |
           jupyter-book build book

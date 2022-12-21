@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: Searching for Solar Axions with BabyIAXO
-author: <a href="https://github.com/lobis">Luis Antonio Obis Aparicio</a>
+author: Luis Antonio Obis Aparicio
 email: luis.antonio.obis@gmail.com
 
 # Currently we do not include any notebook, this might change
@@ -44,3 +44,5 @@ sphinx:
     language: en
     bibtex_reference_style: author_year
     html_show_copyright: false
+  extra_extensions:
+    - sphinxcontrib.inkscapeconverter # pip install sphinxcontrib-svg2pdfconverter (does nothing atm)
